@@ -56,7 +56,7 @@ $ make build-generate
 * `server`: server file (edit if necessary)
 * `server/config`: Config File
 * `server/provider`: Provide function to communicate with gin
-* `server/provider`: Provide function service
+* `server/service`: Provide function service
 * `server/server`: Run Server
 * `database`: File for setting Migration Database
 * `app/helpers`: Helper File
