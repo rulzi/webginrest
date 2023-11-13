@@ -1,0 +1,30 @@
+  debug: true
+  name: webginrest
+  appurl: http://localhost
+  secretkey: secret
+
+  server:
+    address: :8080
+    log:
+      level: error
+
+  context:
+    timeout: 2
+
+  database:
+      host: localhost
+      port: 3306
+      name: gogin
+      user: root
+      pass: alifiandra
+
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    pass: 
+
+  mail:
+    host: smtp.example.com
+    port: 25
+    user: 
+    pass: 
